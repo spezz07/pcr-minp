@@ -1,0 +1,67 @@
+
+.result-content {
+  min-height: 200rpx;
+  .empty-c {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    .empty-img {
+      width: 320rpx;
+      height: 320rpx;
+    }
+    .offten-empty-img {
+      width: 128rpx;
+      height: 128rpx;
+    }
+    .empty-text {
+      font-size: 26px;
+      width: 100%;
+      text-align: center;
+      color: rgb(120, 113, 113);
+    }
+  }
+}
+.select-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  .select-item {
+    padding: 24rpx 0;
+    display: flex;
+    width: 96%;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    .item-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 18%;
+      flex-wrap: wrap;
+      .item-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // width: 128rpx;
+        height: 64rpx;
+
+        text-align: center;
+        border-radius: 8rpx;
+      }
+      .item-text {
+        display: block;
+        width: 128rpx;
+        text-align: center;
+        font-size: 22px;
+        color: rgb(120, 113, 113);
+        overflow: hidden; //超出的文本隐藏
+        text-overflow: ellipsis; //溢出用省略号显示
+        white-space: nowrap; //溢出不换行
+      }
+    }
+  }
+}

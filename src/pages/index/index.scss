@@ -1,0 +1,189 @@
+@import "~taro-ui/dist/style/components/icon.scss";
+@import "~taro-ui/dist/style/components/pagination.scss";
+@import "~taro-ui/dist/style/components/button.scss";
+@import "~taro-ui/dist/style/components/icon.scss";
+@import "~taro-ui/dist/style/components/button.scss"; // 按需引入
+@import "~taro-ui/dist/style/components/list.scss";
+@import "~taro-ui/dist/style/components/icon.scss";
+.select-container {
+  .select-title {
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-size: 28px;
+    color: rgb(120, 113, 113);
+  }
+  .select-item {
+    padding: 12px;
+    display: flex;
+    width: 94%;
+    margin: 0 auto;
+    justify-content: flex-start;
+    align-items: center;
+    .item-img {
+      vertical-align: middle;
+      width: 128rpx;
+      height: 64rpx;
+      margin-right: 16rpx;
+      padding-left: 0;
+      text-align: center;
+      border-radius: 8rpx;
+    }
+  }
+}
+.content-card {
+  width: 90%;
+  padding: 18rpx;
+  margin: 0 auto;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15),
+    0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 16rpx;
+  border-top: 1px solid rgb(245, 243, 243);
+  margin-bottom: 36rpx;
+  .select-btn {
+    width: 58%;
+    margin: 0 auto;
+  }
+}
+.result-content {
+  min-height: 200rpx;
+  .empty-c {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    .empty-img {
+      width: 320rpx;
+      height: 320rpx;
+    }
+    .offten-empty-img {
+      width: 128rpx;
+      height: 128rpx;
+    }
+    .empty-text {
+      font-size: 26px;
+      width: 100%;
+      text-align: center;
+      color: rgb(120, 113, 113);
+    }
+  }
+  .fight-result-item {
+    // padding: 12px;
+    display: flex;
+    width: 94%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 16rpx;
+    .item-img {
+      vertical-align: middle;
+      width: 100rpx;
+      height: 48rpx;
+      margin-right: 16rpx;
+      padding-left: 0;
+      text-align: center;
+      border-radius: 8rpx;
+    }
+    .fight-result-container {
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      width: 94%;
+      margin-top: 16rpx;
+      .fight-result-title {
+        width: 100%;
+        color: rgb(30, 24, 24);
+        margin: 6rpx 0;
+        .avatar {
+          color: rgb(120, 113, 113);
+          font-size: 22px;
+        }
+      }
+      .fight-result-desc {
+        width: 100%;
+        color: rgb(120, 113, 113);
+        font-size: 22px;
+        background-color: rgb(245, 245, 245);
+        padding: 8rpx;
+      }
+      .fight-result-exinfo {
+        padding-bottom: 14rpx;
+        border-bottom: 2px solid #f2f2f2;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        .times {
+          color: rgb(120, 113, 113);
+          font-size: 22px;
+        }
+        .approve-v {
+          display: inline-block;
+          .approve-icon {
+            width: 96rpx;
+            display: inline-block;
+            .icon-rotate {
+              transform: rotate(180deg);
+            }
+            .approve-icon-img {
+              width: 28rpx;
+              vertical-align: middle;
+              height: 28rpx;
+              display: inline-block;
+            }
+            .approve-num {
+              display: inline-block;
+              color: rgb(120, 113, 113);
+              font-size: 22px;
+              margin-left: 8rpx;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.content-head {
+  width: 94%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14rpx;
+  .content-tag-c {  
+    display: flex;
+  justify-content: flex-start;
+  align-items: center;
+    .content-tag {
+      width: 4rpx;
+      height: 48rpx;
+      border-radius: 4rpx;
+      background-color: #6190e8;
+      box-shadow: 1px 0 14px 0 #6190e8;
+      margin-right: 18rpx;
+    }
+    .content-title {
+      font-size: 28px;
+      color: rgb(69, 66, 66);
+    }
+  }
+
+  .content-title-more {
+    font-size: 24px;
+    color: rgb(143, 140, 140);
+  }
+}
+ .win-img {
+    margin: 12rpx auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    .win-img-pic {
+      width: 78rpx;
+      height: 32rpx;
+    }
+  }

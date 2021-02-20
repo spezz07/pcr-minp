@@ -1,0 +1,71 @@
+@import "~taro-ui/dist/style/components/icon.scss";
+@import "~taro-ui/dist/style/components/list.scss";
+
+
+.user-info-container {
+  width: 100%;
+  padding: 12px 28px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 164rpx;
+  border-bottom: 26px solid #f2f2f2;
+  .user-info-left {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    .user-info-avatar {
+      width: 96rpx;
+      height: 96rpx;
+      border-radius: 50%;
+    }
+    .user-info-name {
+      font-size: 26px;
+      color: rgb(120, 113, 113);
+      margin-left: 24rpx;
+    }
+    .edit {
+      color: rgb(120, 113, 113);
+      margin-left: 28rpx;
+    }
+    .edit:hover {
+      color: rgb(31, 28, 28);
+      margin-left: 28rpx;
+    }
+    .name-input {
+      height: 48rpx;
+      font-size: 16px;
+    }
+    .login-desc-text{
+        color: rgb(120, 113, 113);
+      margin-left: 12rpx;
+      font-size: 24px;
+    }
+     .btn {
+        display: flex;
+        align-items: center;
+       justify-content: center;
+        width: 128rpx;
+        height: 64rpx;
+        border-radius: 8px;
+        margin-right: 12px;
+        font-size: 24px;
+        text-align: center;
+
+      }
+    .btn-area {
+      display: flex;
+      justify-content: flex-start;
+    }
+  }
+  .logout{
+   width: 144rpx;
+height: 48rpx;
+font-size: 20rpx;
+display: block;
+text-align: center;
+margin-right: 44rpx;
+
+  }
+}
